@@ -1,0 +1,23 @@
+# ── Ambientes e Segredos ─────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ── Extratos Reais, Planilhas Bancárias e Dados Pessoais ─────
+# Nenhum extrato bancário com PII ou dados brutos de faturamento real
+# deve ser comitado. Apenas modelos, relatórios agregados e blueprints.
+/data/
+/exports/
+*.csv
+*.xlsx
+*.ofx
+*.pdf
+
+# ── Sistemas Operacionais e Editores ─────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
