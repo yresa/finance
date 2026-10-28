@@ -17,10 +17,26 @@ Para as assinaturas e recargas contratadas via **Pix** ou **Cartão de Crédito*
 
 ---
 
-## 2. Tratamento Fiscal das Lojas de Aplicativos (Apple & Google)
+## 2. Tratamento Fiscal das Lojas de Aplicativos (Apple & Google) — Regime de Exportação de Serviços
 
-Nas compras realizadas diretamente pelo fluxo *In-App Purchase* (IAP):
+Nas compras realizadas pelo fluxo de assinaturas nas lojas oficiais móveis (Apple App Store e Google Play Store):
 
-1. **A Relação Comercial:** A Apple Inc. e o Google LLC atuam como distribuidores comerciais perante o consumidor final, emitindo o recibo fiscal direto da loja ao usuário de iPhone ou Android.
-2. **Repasse Líquido à Yresá (*Net Payout*):** A Apple e o Google transferem mensalmente à conta bancária da SLU da Yresá o valor líquido já descontada a comissão de 15% (sob o *Small Business Program*).
-3. **Contabilização:** A assessoria contábil emite mensalmente a nota fiscal de prestação de serviços referente ao valor repassado líquido (ou conforme a orientação contábil sobre exportação/prestação de serviços de intermediação das lojas).
+### 2.1. Natureza Jurídica: Exportação de Software para a Irlanda
+* **Apple:** O contrato de desenvolvedor é firmado com a **Apple Distribution International Ltd.** (Hollyhill Industrial Estate, Cork, Irlanda — VAT IE9700053D).
+* **Google:** O contrato de distribuição é firmado com a **Google Ireland Limited** (Gordon House, Barrow Street, Dublin 4, Irlanda — VAT IE6388047V).
+* **Enquadramento Tributário:** A Receita Federal do Brasil classifica formalmente essas operações como **Exportação de Serviços** com tomador no exterior.
+
+### 2.2. O Benefício Fiscal da Exportação (Redução para ~3,05%)
+Pela Constituição Federal (Art. 149 e 156) e pela Lei Complementar nº 123/2006, a exportação de serviços possui **imunidade/isenção de PIS, COFINS e ISS**:
+* **Alíquota Padrão Nacional (Anexo III):** 6,00%
+* **Alíquota Real sobre Receitas de Lojas no Exterior:** **~3,05%** (recolhe apenas CPP 2,60%, IRPJ 0,24% e CSLL 0,21%).
+* A economia tributária líquida na receita das lojas é de quase **50% dos impostos da empresa**.
+
+### 2.3. Roteiro Operacional de Emissão Mensal (1 Nota por Loja)
+O fundador **não deve emitir dezenas de notas fiscais individuais** para cada usuário de iPhone ou Android:
+1. No último dia do mês, baixe o *Financial Report* consolidado no App Store Connect e no Google Play Console.
+2. Identifique o **Valor Bruto Total** faturado pelas assinaturas no mês (em USD ou BRL).
+3. Converta o valor bruto para Reais usando a **Taxa PTAX de Venda** oficial do Banco Central do Brasil referente ao último dia do mês.
+4. Emita apenas **1 (uma) NFS-e mensal única** para a Apple Distribution International e **1 (uma) NFS-e mensal única** para a Google Ireland no portal da prefeitura.
+5. **Campo de Tributação:** Selecione *"Exportação de Serviços com não-incidência de ISS"*.
+6. A comissão de 15% retida pelas lojas é lançada na contabilidade como **Despesa Operacional de Intermediação Comercial**, sem bitributação.

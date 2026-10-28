@@ -40,3 +40,21 @@ $$\text{Fator R} = \frac{\text{Folha de Pagamento dos últimos 12 meses (incluin
 
 ### 3.1. Estratégia de Pró-Labore
 A assessoria contábil da Yresá deve calcular mensalmente o Pró-Labore do fundador de forma que a razão $\frac{\text{Pró-Labore}}{\text{Faturamento}}$ permaneça sempre em patamar $\ge 28\%$. Isso garante a permanência no Anexo III, gerando economia tributária de até **9,5 pontos percentuais** sobre o faturamento bruto.
+
+---
+
+## 4. Arquitetura Societária Internacional & Fluxo de Royalties
+
+### 4.1. Soberania da Matriz Brasileira & Subsidiária nos EUA
+A **Yresá Tecnologia Ltda (Brasil)** é a controladora absoluta de todo o ecossistema. A eventual empresa nos EUA (`Yresa US LLC/Inc.`) opera como subsidiária integral pertencente ao CNPJ brasileiro:
+- **Fluxo de Caixa Internacional:** O faturamento obtido de usuários internacionais nos EUA é recebido pela subsidiária americana e repatriado para a matriz brasileira a título de **Royalties de Licenciamento de Software** ou distribuição de lucros da subsidiária.
+- **Propriedade Intelectual (PI):** A titularidade de 100% dos algoritmos, prompts, modelos ontológicos e patentes reside inegociavelmente na matriz brasileira.
+
+### 4.2. O Modelo Híbrido de Faturamento (Nacional vs. Lojas)
+1. **Canal Web & Desktop (Asaas):** Faturamento direto no Brasil via Pix (~1% de taxa) e Cartão Nacional (~2,99%). Margem máxima de rentabilidade e dinheiro em D+1.
+2. **Canal Mobile (Apple App Store & Google Play):** Faturamento in-app nativo com conveniência de 1 clique (Face ID) sob a taxa reduzida de **15% (Small Business Program)**. A receita é classificada como **Exportação de Serviços** (tomador na Irlanda), usufruindo de alíquota tributária reduzida de **~3,05%** no Simples Nacional.
+
+### 4.3. Diretriz para Investimento Externo e Aceleradoras (Y Combinator)
+Em caso de ingresso em aceleradoras internacionais (como YC) ou captação com fundos de Venture Capital:
+- A Yresá preserva a matriz brasileira no topo da estrutura societária.
+- O investimento é recebido via **Investimento Estrangeiro Direto (RDE-IED via Banco Central do Brasil)** sob a forma de Mútuo Conversível Internacional, espelhando a jurisprudência e o modelo soberano adotado por grandes empresas globais (*Modelo Spotify*).

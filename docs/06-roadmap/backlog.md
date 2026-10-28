@@ -126,3 +126,33 @@ Toda venda a consumidor final no Brasil exige a emissão da respectiva Nota Fisc
 
 #### 5. Critério de Conclusão
 - NFS-e gerada e enviada por e-mail automaticamente em cada transação de teste aprovada.
+
+---
+
+### [FIN-05] Contratação e Parametrização da Contabilidade Digital (Contabilivre)
+
+* **Status:** Backlog
+* **Iniciativa / Épico:** Estruturação Societária & Tributária
+* **Prioridade:** Alta (Operação Fiscal e Fator R)
+* **Domínios / Módulos Envolvidos:** `corporate-and-tax/01_PLANO_TRIBUTARIO_E_SOCIETARIO.md`, `corporate-and-tax/03_PLAYBOOK_ABERTURA_CNPJ_SOBERANO.md`
+* **Referências:** Contrato de Prestação de Serviços Contábeis, Portaria CFC nº 1.493/2015.
+
+#### 1. Contexto & Por Que Fazer
+Toda pessoa jurídica de tecnologia no Brasil é obrigada a possuir contador responsável registrado no CRC para assinar balanços e transmitir declarações federais (DEFIS/DCTFWeb/eSocial). O Contabilivre foi selecionado no benchmark pelo melhor custo de automação (R$ 209/mês), fornecendo o Certificado Digital e-CNPJ A1 gratuito e integração Open Finance com até 2 contas bancárias PJ (eliminando envio manual de OFX).
+
+#### 2. Quando Fazer (Gatilhos de Ativação)
+- Imediatamente após a obtenção do CNPJ na Junta Comercial e da Inscrição Municipal na Prefeitura.
+
+#### 3. Como Fazer (Estratégia Cirúrgica)
+1. Efetuar o cadastro no Contabilivre (Plano Pro) anexando o Contrato Social da SLU e o cartão do CNPJ.
+2. Agendar e emitir o Certificado Digital e-CNPJ A1 gratuito por videoconferência (salvando o arquivo `.pfx` no cofre seguro).
+3. Conectar via Open Finance a conta bancária PJ da empresa (Banco Inter ou Cora) ao painel do Contabilivre.
+4. Parametrizar a apuração mensal do Pró-Labore do fundador para cravar a meta do **Fator R $\ge 28\%$**, garantindo o Simples Nacional a 6% (Anexo III).
+5. Orientar a equipe contábil sobre as notas consolidadas mensais de exportação de software para a Apple e Google na Irlanda.
+
+#### 4. Riscos Mitigados
+- Elimina multas por atraso na entrega de declarações federais obrigatórias.
+- Evita bitributação ou reenquadramento indevido no Anexo V (15,5%).
+
+#### 5. Critério de Conclusão
+- Contrato contábil ativo, certificado digital e-CNPJ A1 emitido e primeira competência mensal processada com sucesso no Simples Nacional.
